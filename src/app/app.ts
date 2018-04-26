@@ -3,22 +3,22 @@ import { NgModule } from '@angular/core';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  template: `(root)`
+  selector: 'chat-app',
+  template: `(chat-app)`
 })
-export class AppComponent {
-  title = 'app';
+export class ChatApp {
+  title = 'chat-app';
 }
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    ChatApp
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ChatApp]
 })
 export class AppModule { }
